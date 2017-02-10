@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 이 파일은 /res/values/arrays.xml이다. -->
+<resources>
+	<string-array name="shopping_sort_options">
+		<item>의류</item>
+		<item>쥬얼리</item>
+		<item>가방</item>
+		<item>신발</item>
+	</string-array>
+	<string-array name="male_female_select">
+		<item>남자</item>
+		<item>여자</item>
+	</string-array>
+	<string-array name="male_female_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	<string-array name="shopping_sort_options_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+</resources>

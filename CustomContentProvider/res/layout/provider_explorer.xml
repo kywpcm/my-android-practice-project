@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#53868b"
+	android:scrollbarAlwaysDrawVerticalTrack="true"
+	android:scrollbarStyle="insideInset">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="-ContentProvider에 입력 -"
+					android:textStyle="bold"
+					android:textColor="#030303"
+					android:textSize="7pt" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginLeft="10dp">
+				<TextView
+					android:layout_width="80dp"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:textColor="#030303"
+					android:text="그룹이름:" />
+				<EditText
+					android:id="@+id/add_name"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:text="" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginLeft="10dp">
+				<TextView
+					android:layout_width="80dp"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:textColor="#030303"
+					android:text="멤버수:" />
+				<EditText
+					android:id="@+id/add_number"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:text="" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginLeft="10dp">
+				<TextView
+					android:layout_width="80dp"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:textColor="#030303"
+					android:text="소속사:" />
+				<EditText
+					android:id="@+id/add_company"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:text="" />
+			</LinearLayout>
+			<Button
+				android:id="@+id/add_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:text="저장" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/edit_buttons_layout"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center" />
+		<LinearLayout
+			android:id="@+id/delete_buttons_layout"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="10dp"
+			android:text="==============================="
+			android:textStyle="bold"
+			android:textColor="#030303"
+			android:textSize="7pt"
+			android:layout_height="match_parent"
+			android:layout_gravity="top" />
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+
+				android:text="-수정(Update)하려면 입력 후 선택 -"
+				android:textStyle="bold"
+				android:textColor="#030303"
+				android:textSize="7pt" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginLeft="10dp">
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#030303"
+				android:text="이름 편집:" />
+			<EditText
+				android:id="@+id/edit_name"
+				android:layout_width="220dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginLeft="10dp">
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#030303"
+				android:text="멤버편집:" />
+			<EditText
+				android:id="@+id/edit_number"
+				android:layout_width="220dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginLeft="10dp">
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textColor="#030303"
+				android:text="소속사편집 :" />
+			<EditText
+				android:id="@+id/edit_company"
+				android:layout_width="220dp"
+				android:layout_height="wrap_content"
+				android:text="" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/edit_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:text="편집" />
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:orientation="horizontal">
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:text="-입력된 정보 -"
+				android:textStyle="bold"
+				android:textColor="#030303"
+				android:textSize="7pt" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:orientation="horizontal">
+			<ListView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:background="#53FF8b"
+				android:id="@+id/provider_list"
+				android:dividerHeight="3dp" android:divider="#000000"/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

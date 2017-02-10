@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pyo.android.simple.widget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AndroidSimpleWidget"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ButtonKindActivity" />
+        <activity android:name="DateTimePicker" />
+        <activity android:name="GestureTouchEventActivity" />
+        <activity android:name="WidgetFormDisplay" />
+        <activity android:name="TextInputActivity" />
+        <activity android:name="TextViewDisplay" />
+        <activity android:name="KeyPadControlActivity" />
+        <activity android:name="KeyPadInputTypeActivity" />
+        <activity android:name="AutoCompleteTextViewActivity" />
+        <activity android:name="ImageViewActivity" />
+        <activity android:name="QuickContactBadgeActivity" />
+        <activity android:name="AndroidEventListActivity" />
+        <activity
+            android:name="SimpleViewCallBackEventActivity"
+            android:label="뷰 콜백 이벤트 예제"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="ActivityCallbackEventActivity"
+            android:label="액티비티 콜백 이벤트 예제"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="EventPriorityActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.pyo.android.widget.expension"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<com.pyo.android.widget.expension.TextViewExpansion
+		android:background="@drawable/red"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		custom:pyo_text="RED COLOR"
+		custom:pyo_textSize="20sp"
+		custom:pyo_textColor="#AAffffff"
+		/>
+	<com.pyo.android.widget.expension.TextViewExpansion
+		android:background="@drawable/green"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		custom:pyo_text="GREEN COLOR"
+		custom:pyo_textSize="20sp"
+		custom:pyo_textColor="#AAffffff"
+		/>
+	<com.pyo.android.widget.expension.TextViewExpansion
+		android:background="@drawable/blue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		custom:pyo_text="BLUE COLOR"
+		custom:pyo_textSize="20sp"
+		custom:pyo_textColor="#AAffffff"
+		/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="message">
+        안드로이드 기본 위젯 사용법
+     </string>
+     <string
+        name="app_name">기본위젯예제</string>
+    <string
+        name="spinner_prompt">혈액형을 선택하세요</string>
+    <string
+        name="autolink_text">
+       T-Academy  URL은 http://www.tacademy.co.kr/이며
+       email은  insoo.pyo@gmail.com 이고,
+       전화는 (010)3745-2833 입니다.
+    </string>
+    <array name="array_decla_colors">
+        <item>빨강</item>
+        <item>블루</item>
+        <item>그린</item>
+        <item>노랑</item>
+        <item>초록</item>
+        <item>검정</item>
+        <item>다크블루</item>
+        <item>사이언</item>
+        <item>마젠타</item>
+    </array>
+    <string-array name="blood_group">
+        <item>A형</item>
+        <item>B형</item>
+        <item>AB형</item>
+        <item>O형</item>
+        <item>RH-A형</item>
+        <item>RH-B형</item>
+        <item>RH-AB형</item>
+        <item>RH-0형</item>
+    </string-array>
+    <array  name="numbers">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <string name="dash_line">
+       ---------------------------------------------------------------
+    </string>
+</resources>

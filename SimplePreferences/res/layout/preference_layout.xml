@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:id="@+id/LinearLayout01"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:gravity="center_horizontal">
+			<TextView
+				android:id="@+id/Title"
+				android:text="-액티비티 이름-"
+				android:textColor="#FFFFFF"
+				android:textSize="8pt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:shadowColor="#00f"
+				android:shadowDx="0" 
+				android:shadowDy="-1" 
+				android:shadowRadius="10"
+				/>
+		</LinearLayout>
+	    <LinearLayout
+	   		android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:gravity="center_horizontal">
+			<Button
+				android:id="@+id/SwtichBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#00f"
+				android:textSize="5pt" 
+				android:text="Actitivy 전환 하기"/>
+		</LinearLayout>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="선호설정  Key 입력! " />
+		<EditText
+			android:id="@+id/EditTextPrefName"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="선호설정 value 입력!" />
+		<EditText
+			android:id="@+id/EditTextPrefValue"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"/>
+		<TableLayout
+			android:id="@+id/TableLayout01"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:stretchColumns="*">
+			<TableRow
+				android:id="@+id/TableRow01"
+				android:layout_height="wrap_content"
+				android:padding="5px"
+				android:layout_width="wrap_content">
+				<Button
+					android:id="@+id/ButtonAddSharedPref"
+					android:text="공유선호 Add/Edit 하기"
+					android:background="#888888"
+					android:padding="5px"
+					android:textSize="5pt" android:layout_column="0"></Button>
+				<Button
+					android:text="공유선호  Key로 제거"
+					android:id="@+id/ButtonClearSharedPrefByName"
+					android:padding="5dp"
+					android:background="#888888"
+					android:textSize="5pt" 
+					android:layout_column="2"/>
+			</TableRow>
+			<TableRow
+				android:id="@+id/TableRow01"
+				android:layout_height="wrap_content"
+				android:padding="5px"
+				android:layout_width="wrap_content">
+				<Button
+					android:id="@+id/ButtonAddActivityPref"
+					android:text="전용선호 Add/Edit하기"
+					android:background="#cccc99"
+					android:padding="5dp"
+					android:textSize="5pt" 
+					android:layout_column="0"/>
+				<Button
+					android:text="전용선호 Key로 제거"
+					android:id="@+id/ButtonClearActPrefByName"
+					android:background="#cccc99"
+					android:padding="5px"
+					android:textSize="5pt" android:layout_column="2"/>
+			</TableRow>
+			<TableRow
+				android:id="@+id/TableRow01"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:layout_width="wrap_content">
+				<Button
+					android:id="@+id/ButtonClearAct"
+					android:text="모든 전용선호 제거하기"
+					android:background="#cc66ff"
+					android:padding="5dp"
+					android:textSize="5pt" 
+					android:layout_column="0"></Button>
+				<Button
+					android:text="모든 공유선호 제거 하기"
+					android:id="@+id/ButtonClearShared"
+					android:background="#cc66ff"
+					android:padding="5dp"
+					android:textSize="5pt" android:layout_column="2"/>
+			</TableRow>
+	</TableLayout>
+	 <TextView
+					android:layout_height="wrap_content"
+					android:text="------------------------------전용 선호  값들---------------------------"
+					android:layout_width="fill_parent"
+					android:textSize="6pt"
+					/>
+	 <LinearLayout
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+	    <TextView
+					android:id="@+id/CurrentActivityPrefs"
+					android:layout_height="wrap_content"
+					android:text="*전용 선호  값들*"
+					android:layout_width="fill_parent"
+					android:textSize="6pt"
+					/>
+	 </LinearLayout>
+	    <TextView
+					android:layout_height="wrap_content"
+					android:text="------------------------------공유 선호  값들----------------------------"
+					android:layout_width="fill_parent"
+					android:textSize="6pt"
+					/>
+     <LinearLayout
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+	    <TextView
+				    android:id="@+id/CurrentPrefs"
+					android:layout_height="wrap_content"
+					android:text="*공유 선호  값들*"
+					android:layout_width="fill_parent"
+					android:textSize="6pt"
+					/>
+	  </LinearLayout>
+	</LinearLayout>
+</ScrollView>

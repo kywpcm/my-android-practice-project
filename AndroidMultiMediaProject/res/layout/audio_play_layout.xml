@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backimage"
+    >
+<ImageView
+	android:id="@+id/player_album_art"  
+    android:layout_width="wrap_content"
+    android:layout_gravity="center" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/nell_album_art"
+    android:minHeight="200dp"
+    android:minWidth="200dp"
+    android:scaleType="fitXY"
+    />
+<TextView
+	android:id="@+id/player_artist_name"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textAppearance= "?android:attr/textAppearanceMedium"
+    android:paddingTop="10dip"  
+    android:paddingBottom="5dip"    
+    android:paddingLeft="5dip"  
+    android:textColor="#FFFFFFFF"
+    android:gravity="left"
+    android:text="player_artist_name"
+    />    
+   <TextView
+	android:id="@+id/player_audio_title"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textAppearance= "?android:attr/textAppearanceMedium"
+    android:paddingTop="10dip"  
+    android:paddingBottom="5dip"    
+    android:paddingLeft="5dip"  
+    android:textColor="#FFFFFFFF"
+    android:gravity="left"
+    android:lines="1"
+    android:ellipsize="end"
+    android:text="player_audio_title"
+    />
+<RelativeLayout 
+	android:id="@+id/control"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="64dp"
+    android:layout_alignBottom="@id/player_audio_title"
+    android:background="@drawable/controler_large"
+    android:paddingTop="7dp">
+	<Button
+	android:id="@+id/btn_audio_back"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+	android:background="@drawable/ic_media_rew"
+    android:fitsSystemWindows="true"
+    android:layout_marginLeft="50dp"
+    />	   
+	<ImageButton
+	android:id="@+id/btn_play"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+	android:background="@drawable/ic_media_pause"
+    android:layout_toRightOf="@id/btn_audio_back"
+    android:layout_marginLeft="25dp"
+    />	    
+	<Button
+	android:id="@+id/btn_audio_next"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+	android:background="@drawable/ic_media_ff"
+    android:layout_toRightOf="@id/btn_play"
+    android:layout_marginLeft="25dp"
+    />	    
+	<Button
+	android:id="@+id/btn_audio_repeat"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="@drawable/ic_media_audio_repeat"
+    android:layout_toRightOf = "@id/btn_audio_next"
+    android:layout_marginLeft="25dp"
+    />	   
+  </RelativeLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    >       
+    <!--  진행시간표시 -->
+    <TextView
+	android:id="@+id/audio_progress_time"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFFFF"
+    android:layout_weight="1"
+    android:text="00:00"
+    />
+    <!--  프로그래스바 -->
+    <SeekBar 
+    android:id="@+id/audio_progress_bar" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_weight="8"
+	/>  
+    <!--  총 시간표시 -->
+	<TextView  
+	android:id="@+id/audio_playback_time"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#FFFFFFFF"
+    android:layout_weight="1"
+    android:text="6:09" />   
+ </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuOne"
+        android:orderInCategory="1"
+        android:title="One">
+    </item>
+    <item
+        android:id="@+id/menuTwo"
+        android:orderInCategory="2"
+        android:title="Two">
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:title="submenu1"/>
+            <item
+                android:id="@+id/item2"
+                android:title="SubMenu2"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itemThree"
+        android:orderInCategory="3"
+        android:title="Three">
+    </item>
+
+</menu>

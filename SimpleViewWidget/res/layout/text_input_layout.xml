@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <EditText
+            android:layout_height="wrap_content"
+            android:hint="lines=3 및 capitalize 속성 설정 "
+            android:lines="3"
+            android:capitalize="words"
+            android:layout_width="fill_parent" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
+            android:hint="scrollHorizontally=true 속성 설정 "
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="editable=false 속성 설정"
+            android:editable="false"
+            />
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="selectAllOnFocus설정. 입력하면 없어짐"
+            android:selectAllOnFocus="true"
+            />
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="cursorVisible=false"
+            android:cursorVisible="false"
+            />
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="digits속성을 이용해 혈액형만 입력"
+            android:digits="ABORH-형"
+            />
+           <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="numeric속성 사용"
+            android:numeric="integer|signed"
+            />
+            <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="phoneNumber속성 사용"
+            android:phoneNumber="true"
+            />
+           <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="password속성"
+            android:password="true"
+            />
+           <EditText
+            android:id="@+id/input_filtered"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="InputFilter적용 코드참조"
+            />
+    </LinearLayout>
+</ScrollView>

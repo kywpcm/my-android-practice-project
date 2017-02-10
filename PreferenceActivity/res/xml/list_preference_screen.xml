@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="interest_shopping_list_preference" 
+	android:title="관심 쇼핑 목록" 
+	android:summary="관심있는 쇼핑목록으로 자동 검색됨" >
+	<ListPreference 
+	    android:key="@string/selected_shopping_sort_option" 
+		android:title="@string/shopping_title" 
+		android:summary="@string/shopping_summary" 
+		android:entries="@array/shopping_sort_options" 
+		android:entryValues="@array/shopping_sort_options_values" 
+		android:dialogTitle="@string/dialog_title" 
+		android:defaultValue="@string/shopping_sort_option_default_value" />
+</PreferenceScreen>

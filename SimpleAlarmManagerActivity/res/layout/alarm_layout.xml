@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/alarmSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람셑팅" >
+        </Button>
+
+        <Button
+            android:id="@+id/alarmRest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람리셑팅" >
+        </Button>
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

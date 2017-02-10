@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ff666666"
+	android:padding="2px"
+>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="SQLite3  기본활용예제!"
+		android:background="#993300"
+		android:textStyle="bold"
+		android:textSize="7pt"
+		android:gravity="center" />
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="걸그룹 이름과 노래 입력!"
+		android:background="#cccc99"
+		android:textStyle="bold"
+		android:textSize="7pt"
+		android:textColor="#000000"
+		android:gravity="center" />
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:stretchColumns="1"
+	>
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		>
+			<TextView
+				android:id="@+id/TextView01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="노래   제목:"
+				android:textSize="7pt"
+				android:textStyle="bold"
+				android:background="#ff99ff"
+				android:textColor="#008800" />
+			<EditText
+				android:id="@+id/musicNameEdit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		>
+			<TextView
+				android:id="@+id/TextView01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="걸그룹이름:"
+				android:textSize="7pt"
+				android:textStyle="bold"
+				android:background="#ff99ff"
+				android:textColor="#008800" />
+			<AutoCompleteTextView
+				android:id="@+id/autoTextGirlsGroupFinder"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:completionThreshold="1" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		>
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/girlsGroupInsert"
+				android:text="저장"
+				android:gravity="center"
+				android:layout_column="1" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/TableRow01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		>
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/girlGroupDisplayBtn"
+				android:layout_column="1"
+				android:text="결과보기"
+				android:gravity="center" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

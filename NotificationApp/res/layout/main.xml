@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="알림 버튼 선택!" />
+    <Button
+        android:id="@+id/notify1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify 1 - 텍스트" />
+    <Button
+        android:id="@+id/notify2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify 2 - 진동" />
+    <Button
+        android:id="@+id/notify3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify 3 - LED" />
+    <Button
+        android:id="@+id/notify4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify 4 - 노이즈" />
+        
+    <Button
+        android:id="@+id/notifyRemote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify 5- 확장뷰" />
+</LinearLayout>

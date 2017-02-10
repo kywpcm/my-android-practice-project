@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="musicName">노래제목</string>
+    <string name="app_name">FianalSQLiteProject</string>
+    <string name="groupName">그룹이름</string>
+    <string name="imageName">그룹사진</string>
+</resources>

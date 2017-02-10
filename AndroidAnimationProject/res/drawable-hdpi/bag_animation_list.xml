@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/bag_01"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_02"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_03"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_04"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_05"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_06"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_07"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_08"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_09"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_10"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_11"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_12"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_13"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_14"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_15"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_16"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_17"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/bag_18"
+        android:duration="500"/>
+
+</animation-list>

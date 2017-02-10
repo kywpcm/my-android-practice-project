@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/AbsoluteLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<AnalogClock
+		android:id="@+id/AnalogClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="0px"
+		android:layout_y="0px"/>
+	<AnalogClock
+		android:id="@+id/DigitalClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="150px"
+		android:layout_y="0px"/>
+    <DigitalClock
+		android:id="@+id/DigitalClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="20px"
+		android:layout_y="200px"/>
+    <DigitalClock
+		android:id="@+id/DigitalClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="200px"
+		android:layout_y="200px"/>
+   <AnalogClock
+		android:id="@+id/AnalogClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="20px"
+		android:layout_y="250px"/>
+	<AnalogClock
+		android:id="@+id/DigitalClock01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="150px"
+		android:layout_y="250px"/>
+</AbsoluteLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:key="check_box_screen_key"
+  android:title="검색세부 조건 추가"
+  android:summary="검색 결과 추가할 세부 컬럼">
+  <CheckBoxPreference
+      android:key="check_box_pants"
+      android:title="바지"
+      android:summary="바지 검색 추가">"
+  </CheckBoxPreference>
+  <CheckBoxPreference
+      android:key="check_box_jacket"
+      android:title="자켓"
+      android:summary="자켓 검색 추가"
+      android:defaultValue="true">
+  </CheckBoxPreference>
+  <CheckBoxPreference
+      android:key="check_box_shirt"
+      android:title="셔츠"
+      android:summary="셔츠 검색 추가">
+  </CheckBoxPreference>
+</PreferenceScreen>

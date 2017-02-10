@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  > 
+  <LinearLayout 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+			  <TextView 
+			      android:layout_width="wrap_content" 
+			      android:layout_height="wrap_content"
+			      android:text="텍스트뷰 테스트" 
+			      android:textColor="#00ff00"
+			      android:textSize="15sp"
+			      android:textStyle="bold|italic" 
+			      android:background="#ffffffff"
+			      />
+
+			 <TextView
+			     android:layout_width="wrap_content"
+			     android:layout_height="match_parent"
+			     android:text="@string/dash_line" />
+
+			 <TextView
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:ellipsize="end"
+			     android:singleLine="true"
+			     android:text="@string/autolink_text"
+			     android:textSize="10pt" />
+
+			 <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			 <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="@string/autolink_text"
+			      android:textSize="15dp"
+			      android:singleLine="true"
+			      android:ellipsize="marquee"  
+			      android:marqueeRepeatLimit="3"
+			      android:focusable="true"/>
+			 <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />	      
+			 <TextView
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="@string/autolink_text"
+			      android:autoLink="web|phone|email"
+			      android:textColorLink="#00ffff"
+			      android:linksClickable="true" 
+			      android:textSize="15px"/>
+			<TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			<TextView
+			      android:id="@+id/linkify_text"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+		     />
+			<TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			<TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="텍스트에 그림자 속성값 적용"
+				    android:textSize="15sp"
+				    android:textColor="#ffffff"
+				    android:shadowColor="#00ffff"
+				    android:shadowDx="2.5"
+				    android:shadowDy="2.5"
+				    android:shadowRadius="5.0"
+				    />
+		   <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+		   <TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="장평 적용 않음(15sp)"
+				     android:textSize="15sp"
+				    />
+		    <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			 <TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="장평 적용(15sp,2)"
+				    android:textSize="15sp"
+				    android:textScaleX="2"
+				    />
+		    <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+		   <TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="장평 적용(15sp,0.5)"
+				    android:textSize="15sp"
+				    android:textScaleX="0.5"
+				    />
+		    <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			<TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="우리는 민족중흥의 역사적 사명을 띄고 이땅에 태어났던가? 아님말구!(default)"
+		            android:textSize="15sp"
+    	     />
+    	     <TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			<TextView  
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:text="우리는 민족중흥의 역사적 사명을 띄고 이땅에 태어났가?아님말구!(lineSpacingMultiplier=2.0)"
+				    android:textSize="15sp"
+				    android:lineSpacingMultiplier="2.0"
+    	     />
+    	     <TextView 
+			      android:id="@+id/textView_dash"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+			<TextView  
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="우리는 민족중흥의 역사적 사명을 띄고 이땅에 태어났나?아님말구!(lineSpacingExtra=30dp)"
+			    android:textSize="15sp"
+			    android:lineSpacingExtra="30dp"/>
+			<TextView 
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content" 
+			      android:text="@string/dash_line" />
+  </LinearLayout>
+</ScrollView>

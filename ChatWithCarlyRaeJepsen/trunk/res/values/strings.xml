@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat With Carly Rae Jepsen</string>
+    <string name="action_settings">Settings</string>
+    <string name="receive_btn">Receive</string>
+    <string name="send_btn">Send</string>
+    <string name="carlry_name">Carly Rae Jepsen</string>
+    <string name="carly_message"></string>
+    <string name="my_name">Max Kwon</string>
+    <string name="my_message"></string>
+
+</resources>

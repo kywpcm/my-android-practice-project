@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="안드로이드 소켓 테스트"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:textStyle="bold" />
+		<EditText
+			android:id="@+id/socket_ip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="@string/serverIPAddress" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="서버 포트 번호"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:textStyle="bold" />
+		<EditText
+			android:id="@+id/socket_port"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="10000" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+		    android:textSize="18sp"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:text="반향시킬 텍스트 입력" />
+		<EditText
+			android:id="@+id/socket_input"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:hint="메세지 입력:" />
+		<Button
+			android:id="@+id/socket_connection"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="서버연결 및 메세지 보내기" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:text="--- 서버에서 반향된 결과 -------" />
+		<EditText
+			android:id="@+id/socket_output"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:hint="서버에서 온 메세지:" />
+	</LinearLayout>
+</ScrollView>

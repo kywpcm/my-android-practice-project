@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.pyo.android.widget.expension"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" 
+                     android:label="@string/app_name">
+       <activity android:name=".WidgetExpansionListActivity"
+                   android:label="WidgetExpansionListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SimpleWidgetExpansionListActivity" />
+        <activity android:name="SimpleAdapterExpansionListActivity" />
+        <activity android:name="SimpleDrawActivity"  />
+        <activity android:name="TextViewExpansionActivity" />
+        <activity android:name="DateTimePickerActivity"  />
+        <activity android:name="TARABaseAdapterActivity" />
+        <activity android:name="TARAArrayAdapterActivity" />
+        <activity android:name="AdapterItemEditActivity" />
+        <activity android:name="AdapterItemMultiEditActivity" />
+        <activity android:name="SimpleListAdapterActivity"  />
+        <activity android:name="TARAGalleryAdapterActivity" />
+        <activity android:name="SimpleGridView" />
+        <activity android:name="DBContactAdapterActivity" />
+        <activity android:name="SimpleAndroidEmbededWidgetActivity" />
+        <activity android:name="SimpleTabActivity" />
+        <activity android:name="SimpleSlidingDrawer" />
+        <activity android:name="ThreadProcessDialogActivity" />
+       </application>
+       <uses-permission  android:name="android.permission.READ_CONTACTS"/>
+</manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">에코소켓예제</string>
+    <string name="serverIPAddress">192.168.205.194</string>
+</resources>

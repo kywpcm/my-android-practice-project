@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SlidingDrawer레이아웃! 뷰를 담을수 있음!" 
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <SlidingDrawer
+        android:id="@+id/drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:handle="@+id/handle"
+        android:content="@+id/content"
+        android:bottomOffset="9px">
+        <ImageView
+            android:id="@id/handle"
+            android:layout_width="320dip"
+            android:layout_height="50dip"
+            android:src="@drawable/handle" />
+        <LinearLayout
+            android:id="@id/content"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                style="@style/padded_small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="작은 패딩" />
+            <TextView
+                style="@style/padded_xlarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Big!" />
+            <TextView
+                style="@style/padded_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Normal w/parent color" />
+            <TextView
+                style="@style/padded_italics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="이탤릭 w/parent color" />
+            <TextView
+                style="@style/glow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Grow" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="보통" />
+        </LinearLayout>
+    </SlidingDrawer>
+</LinearLayout>

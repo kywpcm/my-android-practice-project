@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ >
+ <Button 
+   android:id="@+id/btn_start_list_animate" 
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" 
+   android:text="리스트뷰 애니메이션"
+   android:textStyle="bold"
+   android:textSize="20sp"
+   android:clickable="false"
+  /> 
+<ListView
+   android:id="@+id/anim_list_id"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:persistentDrawingCache="animation|scrolling"
+   android:layoutAnimation="@anim/list_view_anim_controller"
+  />
+</LinearLayout>

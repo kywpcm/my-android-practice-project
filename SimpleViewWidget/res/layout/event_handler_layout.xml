@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <com.pyo.android.simple.widget.HandlerButton
+     android:id="@+id/btn_prioriry_handler"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text=" 이벤트우선순위(터치이벤트)">
+  </com.pyo.android.simple.widget.HandlerButton>
+</LinearLayout>

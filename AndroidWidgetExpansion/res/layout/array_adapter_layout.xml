@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="#aaffff00">
+   <ImageView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:scaleType="fitXY"
+      android:id="@+id/tara_member_image"
+      android:paddingLeft="0dp"
+      android:paddingBottom="0dp"
+      android:paddingTop="2dp"
+      android:paddingRight="5dp">
+   </ImageView>
+   <TextView
+      android:id="@+id/tara_member_name"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:textColor="#aa000000"
+      android:textSize="20sp">
+   </TextView>
+  </LinearLayout>

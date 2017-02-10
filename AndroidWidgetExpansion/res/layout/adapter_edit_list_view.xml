@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:orientation="vertical"
+  android:layout_height="match_parent">
+  <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <EditText
+        android:id="@+id/input_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="추가할 멤버를 입력하세요">
+     </EditText>
+  </LinearLayout>
+  <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button 
+         android:id="@+id/member_add"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="추가"/>
+     <Button 
+         android:id="@+id/member_delete"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="삭제"/>
+  </LinearLayout>
+  <ListView
+      android:id="@+id/girl_member_list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+  />
+</LinearLayout>

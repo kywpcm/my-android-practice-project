@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">이 응용프로그램은 UI가 없습니다. LogCat의 출력 결과를 꼭 확인 하세요!.</string>
+    <string name="app_name">SQLite기본사용방법</string>
+</resources>

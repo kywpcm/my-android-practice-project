@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/activity_start"
+        android:orderInCategory="1"
+        android:title="@string/startActivity">
+    </item>
+    <item
+        android:id="@+id/search_menu"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="2"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/search_menu">
+    </item>
+    <item
+        android:id="@+id/submenu"
+        android:orderInCategory="3"
+        android:title="@string/submenu">
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:orderInCategory="11"
+                android:title="subitem1"/>
+            <item
+                android:id="@+id/item2"
+                android:orderInCategory="12"
+                android:title="subitem2"/>
+        </menu>
+    </item>
+
+</menu>

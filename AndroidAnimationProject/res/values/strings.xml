@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string	name="app_name">애니메이션예제</string>
+	<string	name="tween">트위닝 애니메이션 실행</string>
+	<string	name="framebyframe">Frame By Frame(ImageView)</string>
+	<string   name="framebyframe_imageswitcher">Frame By Frame(ImageSwitcher)</string>
+	<string   name="framebyframe_list">Frame By Frame(XML선언방식)</string>
+</resources>

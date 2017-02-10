@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#ff666666" 
+    android:gravity="center" 
+	>
+   <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="MediaStore, Adapter 적용예제!"
+		android:background="#993300" 
+		android:textStyle="bold" 
+		android:textSize="7pt"
+		/>
+     <RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/RelativeLayoutHeader"
+	    android:layout_height="wrap_content"  
+	    android:layout_width="fill_parent"
+	    android:background="#CCCCCC">
+    <TextView
+		android:id="@+id/TextView01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#007700"
+		android:text="@string/imageName"
+		android:textStyle="bold" 
+		android:layout_alignParentLeft="true" />
+   <TextView
+		android:id="@+id/TextView01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#007700"
+		android:text="@string/groupName"
+		android:textStyle="bold" 
+		 android:layout_centerInParent="true"/>
+	<TextView
+		android:id="@+id/TextView01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#007700"
+		android:text="@string/musicName" 
+		android:layout_alignParentRight="true"
+		android:textStyle="bold"/>
+   </RelativeLayout>
+	<ListView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageListGirlsGroup" 
+		android:divider="#660000" 
+		android:dividerHeight="3px"/>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/historyBackBtn"
+		android:text="다시입력하기"
+		/>
+</LinearLayout>

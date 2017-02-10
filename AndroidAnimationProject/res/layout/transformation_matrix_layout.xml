@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ >
+ <Button 
+   android:id="@+id/btn_matrix_start" 
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" 
+   android:text="변환행렬을 적용한 애니메이션"
+   android:textStyle="bold"
+   android:textSize="20sp"
+   android:clickable="false"
+  /> 
+<ListView
+   android:id="@+id/anim_matrix_list_id"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:persistentDrawingCache="animation|scrolling"
+  />
+</LinearLayout>

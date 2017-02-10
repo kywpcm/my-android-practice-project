@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backimage"
+    >
+  <FrameLayout
+        android:id="@+id/frame_in_surface"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        >
+  </FrameLayout>
+<LinearLayout 
+	android:id="@+id/control"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/controler_large"
+    android:paddingTop="7dp"
+    android:layout_weight="1"
+    android:gravity="center"
+ >
+	<Button
+	android:id="@+id/btn_video_back"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+	android:background="@drawable/ic_media_rew"
+    android:onClick="performPrevioutNext"
+    android:layout_margin="30dp"
+    />	   
+	<ImageButton
+	android:id="@+id/btn_video_play"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+	android:background="@drawable/ic_media_pause"
+	android:layout_margin="30dp"
+    />	    
+	<Button
+	android:id="@+id/btn_video_next"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+	android:background="@drawable/ic_media_ff"
+    android:onClick="performPrevioutNext"
+    android:layout_margin="30dp"
+    />
+  </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    android:gravity="center"
+    android:layout_weight="1"
+    >       
+    <!--  진행시간표시 -->
+    <TextView
+	android:id="@+id/video_progress_time"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFFFF"
+    android:layout_weight="1"
+    android:text="00:00"
+    />
+    <!--  프로그래스바 -->
+    <SeekBar 
+    android:id="@+id/video_progress_bar" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_weight="8"
+	/>  
+    <!--  총 시간표시 -->
+	<TextView  
+	android:id="@+id/video_playback_time"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#FFFFFFFF"
+    android:layout_weight="1"
+    android:text="6:09" />
+ </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">환경설정액티비티</string>
+    <string name="selected_shopping_sort_option">selected_shopping_sort_option"</string>
+    <string name="shopping_title">쇼핑타이틀</string>
+    <string name="shopping_summary">쇼핑 부가 설명 내용</string>
+    <string name="dialog_title">다이얼로그 타이틀</string>
+    <string name="shopping_sort_option_default_value">1</string>
+</resources>

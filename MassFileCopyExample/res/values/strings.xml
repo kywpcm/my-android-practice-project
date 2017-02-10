@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mass File Copy Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_list">File List</string>
+    <string name="btn_copy">File Copy</string>
+    <string name="exist_girlsday">걸스데이 동영상이 있습니다. 파일을 복사하세요.</string>
+    <string name="not_exist_girlsday">걸스데이 동영상이 없습니다.</string>
+    <string name="file_copy_text">파일 복사 중...</string>
+    <string name="wait_message">잠시만 기다려 주세요.</string>
+
+</resources>

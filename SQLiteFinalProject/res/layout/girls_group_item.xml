@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayoutHeader"
+	android:layout_height="50px"  
+	android:layout_width="fill_parent">
+	<ImageView
+		android:id="@+id/imageGirlsGroupImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:adjustViewBounds="true"
+		android:maxHeight="100px"
+		android:maxWidth="100px" 
+		android:padding="5px"/>
+	<TextView
+		android:id="@+id/textGroupName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="8pt"
+		android:textStyle="bold"
+		android:textColor="#660000" 
+		android:layout_centerInParent="true"/>
+	<TextView
+		android:id="@+id/textMusicName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="8pt"
+		android:textStyle="bold" 
+		android:textColor="#660000"  
+		android:layout_alignParentRight="true"/>
+</RelativeLayout>
+	
